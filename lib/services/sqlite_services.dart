@@ -75,7 +75,7 @@ class SqliteServices {
     if (Platform.isAndroid) {
       final db = await _initializeDb();
       id = await db.rawInsert(
-          "'INSERT INTO $_tableName(item_name, description, status, is_deleted, inserted_at) VALUES(?,?,?,?,?)'",
+          "INSERT INTO $_tableName(item_name, description, status, is_deleted, inserted_at) VALUES(?,?,?,?,?)",
           [
             item.item_name,
             item.description,
