@@ -18,7 +18,7 @@ class ItemWidget extends StatelessWidget {
       shape: RoundedRectangleBorder(
         borderRadius: borderRadius,
       ),
-      margin: const EdgeInsets.symmetric(horizontal: 0, vertical: 6),
+      margin: const EdgeInsets.symmetric(horizontal: 6, vertical: 6),
       child: InkWell(
         onTap: () {},
         borderRadius: borderRadius,
